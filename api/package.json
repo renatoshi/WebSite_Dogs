@@ -24,6 +24,13 @@
     "pg": "^8.5.1",
     "sequelize": "^6.3.5"
   },
+
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
