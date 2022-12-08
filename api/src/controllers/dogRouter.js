@@ -1,6 +1,7 @@
 const axios = require("axios");
 const { Dog, Temperament } = require("../db");
 const { API_KEY } = process.env;
+require('dotenv').config();
 
 const getApiInfo = async () => {
   const apiUrl = await axios.get(
