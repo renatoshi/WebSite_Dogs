@@ -6,7 +6,7 @@ import DogDetails from "./components/DogDetails";
 import Home from "./components/Home";
 import DogCreate from "./components/DogCreate";
 import axios from "axios";
-axios.default.baseURL = "deploy1-production.up.railway.app";
+axios.default.baseURL = "http://localhost:3000";
 
 
 function App() {
