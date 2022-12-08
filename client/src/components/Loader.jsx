@@ -1,5 +1,5 @@
 import React from "react";
-import * as style from '../componentsCSS/Loader.module.css'
+import style from '../componentsCSS/Loader.module.css'
 import loading from '../images/loadingDog.gif'
 export default function Loading(){
   return(
