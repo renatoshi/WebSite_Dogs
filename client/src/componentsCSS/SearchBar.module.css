@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-content: center;
+  padding-right: 40px;
+}
+
+.input {
+  height: 2.5em;
+  width: 12em;
+  margin-right: 10px;
+  color: black;
+  font-family: "Sniglet", cursive;
+  font-size: 1em;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: #fff; 
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.button {
+  position: relative;
+  padding: 6px 5px;
+  border: 2px solid rgb(200, 200, 200);
+  background: none;
+  cursor: pointer;
+  background-color: #1426ad; 
+  border-color: #fff;
+  border-radius: 5px;
+}
+
+
+.button span {
+  position: relative;
+  font-family: "Sniglet", cursive;
+  font-weight: nor;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+  .container {
+    display: inline-flex;
+    padding: 15px 0px 0px 0px;
+  }
+
+  .input {
+    margin-bottom: 1.5em;
+  }
+
+  .button {
+    margin-bottom: 1.5em;
+    padding: 0px 5px;
+
+  }
+}

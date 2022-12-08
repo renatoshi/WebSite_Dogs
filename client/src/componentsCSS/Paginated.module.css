@@ -1,0 +1,48 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.element {
+  padding: 5px 12px 15px;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+.number {
+  width: 100%;
+  font-size: 1.2em;
+  color: #fff;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer;
+  background-color: #1426ad;
+  text-decoration: none;
+}
+
+.element:hover {
+  display: flex;
+  align-content: center;
+  background-color: black;
+  font-size: 1.2em;
+}
+
+.active {
+  padding: 5px 12px 5px;
+  margin: 2px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .list {
+    flex-wrap: wrap;
+    backdrop-filter: blur(3px);
+  }
+}

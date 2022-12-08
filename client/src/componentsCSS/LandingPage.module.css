@@ -1,0 +1,84 @@
+.page{
+  height: 100vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: top 45% right 0;
+  padding:  0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-left: 80px;
+  justify-content: center;
+
+
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("../images/fondo2.jpg");
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 65px;
+  margin-left: 120px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+
+}
+
+.btn:hover, .btn:focus, .btn:active{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.intro {
+  font-size: 50px;
+  line-height: 54px;
+  color: rgb(40, 77, 5);
+}
+
+.intro2 {
+  font-size: 50px;
+  line-height: 54px;
+  color: rgb(40, 77, 5);
+  margin-top: 1px;
+}
+
+
+
+@media screen and (max-width: 800px){
+  .h1 {
+   font-size: 6rem;
+   margin-left: 70px; 
+  }
+
+
+  .button {
+    margin-left: 200px;
+  }
+
+ }
+
+ @media screen and (max-width: 600px){
+ 
+   .h1 {
+    font-size: 4rem;
+    margin-left: 70px; 
+   }
+
+   .button {
+     margin-left: 130px;
+   }
+ }

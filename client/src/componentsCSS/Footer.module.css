@@ -1,0 +1,15 @@
+.footerInfo{
+    background: #1426ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2vh;
+  }
+
+  .footerInfo h4{
+    margin: 1px;
+    color: #fff;
+  }
